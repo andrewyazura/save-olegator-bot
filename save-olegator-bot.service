@@ -1,0 +1,11 @@
+[Unit]
+Description=Save Olegator Bot
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=
+
+[Install]
+WantedBy=multi-user.target
