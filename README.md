@@ -1,6 +1,6 @@
 # Save Olegator Bot
 
-> I wrote the project in few hours without putting much thought in the code, please don't judge.
+> I wrote the project in a couple of hours without putting much thought in the code, please don't judge
 
 My friend Oleg was forced to move from his hometown because of war.
 While on the road, he had painfully slow internet connection.
@@ -11,6 +11,7 @@ to make them accessible to people with bad internet connection.
 
 `save-olegator-bot.service` contains an example `systemctl` service file.
 Place your own value in the `ExecStart` directive.
+Usually I write some kind of `sh` script for running the service.
 
 ## How to run
 
