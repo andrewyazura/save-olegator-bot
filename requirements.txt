@@ -1,4 +1,0 @@
-environs==9.5.0
-ffmpeg-python==0.2.0
-opencv-python==4.5.5.62
-python-telegram-bot==13.11
