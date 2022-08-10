@@ -15,7 +15,7 @@ def get_strategy(update, context):
     user.send_message(
         "Choose strategy:",
         reply_markup=ReplyKeyboardMarkup(
-            [["Downscale"], ["H265 codec with sound"]],
+            [["Downscale without sound"], ["H265 codec with sound"]],
             resize_keyboard=True,
             one_time_keyboard=True,
         ),
